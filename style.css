@@ -165,18 +165,12 @@ nav {
   h1 {
     font-size: 1.5rem;
   }
-  .card h2 {
-    font-size: 1rem;
-  }
-  .card p {
-    font-size: 0.7rem;
-  }
-  .actions span {
-    width: 30px;
-    height: 35px;
-  }
 }
 @media (max-width: 575px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .list {
     grid-template-columns: repeat(1, 100%);
     gap: 1rem;
