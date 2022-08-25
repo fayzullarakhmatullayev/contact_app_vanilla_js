@@ -171,6 +171,12 @@ nav {
     padding-left: 0;
     padding-right: 0;
   }
+  .card h2 {
+    font-size: 20px;
+  }
+  .card p {
+    font-size: 14px;
+  }
   .list {
     grid-template-columns: repeat(1, 100%);
     gap: 1rem;
