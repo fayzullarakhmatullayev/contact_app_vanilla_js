@@ -27,6 +27,7 @@ select {
   justify-content: space-between;
   gap: 2rem;
 }
+
 h1 {
   margin-bottom: 1rem;
 }
@@ -151,4 +152,16 @@ nav {
 }
 .btn-danger:hover {
   background: rgb(182, 0, 0);
+}
+
+@media (max-width: 991px) {
+  .list {
+    grid-template-columns: repeat(2, 48%);
+  }
+}
+@media (max-width: 575px) {
+  .list {
+    grid-template-columns: repeat(1, 100%);
+    gap: 1rem;
+  }
 }
