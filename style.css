@@ -44,6 +44,10 @@ h1 {
 .card {
   width: 90%;
 }
+.card h2,
+.card p {
+  margin-bottom: 0.5rem;
+}
 
 nav {
   padding: 1rem 2rem;
@@ -158,10 +162,33 @@ nav {
   .list {
     grid-template-columns: repeat(2, 48%);
   }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .card h2 {
+    font-size: 1rem;
+  }
+  .card p {
+    font-size: 0.7rem;
+  }
+  .actions span {
+    width: 30px;
+    height: 35px;
+  }
 }
 @media (max-width: 575px) {
   .list {
     grid-template-columns: repeat(1, 100%);
     gap: 1rem;
+  }
+  .modal .modal-form {
+    max-width: 95%;
+    width: 100%;
+  }
+  .modal .modal-form {
+    padding: 2rem;
+  }
+  .modal-delete .modal-form h2 {
+    font-size: 1.2rem;
   }
 }
